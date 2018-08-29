@@ -1,5 +1,5 @@
 FROM library/debian:stretch
-MAINTAINER pau.curria@gmail.com
+MAINTAINER pau.curria@zitrogames.com
 
 RUN	apt-get update && \
 	apt-get -y install apache2 php php-mysql && \
